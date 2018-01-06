@@ -1,14 +1,19 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.button {
-    background-image: url(/img/button_img.jpg);
-    /* Change url to wanted image */
+body {
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    border: none;
-    width: 339px;
-    height: 48px;
-    cursor: pointer;
-    color: transparent;
+    font-family: 'Titillium Web', sans-serif;
 }
+
+
+h1 {
+    font-size: 22px;
+    color: #ffffff;
+}
+

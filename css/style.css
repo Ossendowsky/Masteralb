@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    background-image: url(/img/button_img.jpg);
+    /* Change url to wanted image */
+    background-size: cover;
+    border: none;
+    width: 339px;
+    height: 48px;
+    cursor: pointer;
+    color: transparent;
+}

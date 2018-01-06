@@ -11,9 +11,22 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-
-h1 {
-    font-size: 22px;
-    color: #ffffff;
+#img__header {
+    opacity: 0.3;
 }
 
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px #2b0100;
+}
+
+button {
+    border: 1px solid #3b9a00;
+    background-color: #9dd538;
+    color: #ffffff;
+    width: 339px;
+    height: 48px;
+    border-radius: 2px;
+    font-size: 23px;
+}

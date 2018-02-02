@@ -1,14 +1,159 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
 }
 
-.button {
-    background-image: url(/img/button_img.jpg);
-    /* Change url to wanted image */
+body {
+    background-image: url(/img/Background.jpg);
     background-size: cover;
-    border: none;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    }
+
+.logo {
+    opacity: 0.36;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__header {
+    justify-content: center;
+}
+
+.logo .logo__footer {
+    
+    justify-content: flex-end;
+}
+
+.form__register{
+    padding: 20px;
+    height: 460px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+
+.form__register--register {
+    padding: 20px;
+    height: 420px;
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+.form__email{
+    padding: 20px;
+    height: 536px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+.form__email--email {
+    padding: 20px;
+    height: 496px;
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+.form__sign{
+    padding: 20px;
+    height: 260px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+.form__sign--sign {
+    padding: 20px;
+    height: 218px;
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+.form__recover{
+    padding: 20px;
+    height: 260px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+
+.form__recover--recover {
+    padding: 20px;
+    height: 218px;
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+.form__subscribe{
+    padding: 20px;
+    height: 196px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+.form__subscribe--subscribe {
+    padding: 20px;
+    height: 156px;
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 2px 2px #2b0100;
+}
+
+.input {
+    height: 41px;
+    width: 340px;
+    font-size: 16px;
+    background-color: #f6f6f6;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+}
+
+.input__username {
+    background-image: url(/img/User.png);
+    background-repeat: no-repeat;
+    background-size: 23px 22px;
+}
+.checkbox {}
+
+.button {
+    border: 1px solid #3b9a00;
+    background-color: #9dd538;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15)100%);
+    color: #ffffff;
     width: 339px;
     height: 48px;
+    border-radius: 2px;
+    font-size: 24px;
+    text-shadow: 1px 1px #2ebc02;
     cursor: pointer;
-    color: transparent;
+}
+
+.button__small {
+    width: 139px;
+    height: 41px;
+}
+
+.button__small--done {
+    background-color: rgba(157, 213, 56, 0.36);
+    border: 1px solid #90ca6d;
+}
+
+.button__small--no {
+    background-color: #f4495b;
+    border: 1px solid #a2202a;
+    text-shadow: 1px 1px #5f402b;
 }

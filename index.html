@@ -4,70 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Masteralb creative</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <header id="main__header"><img id="img__header" src="img/logo_header.png" alt="Logo Masteralb creative"></header>
-    <main id="main__content">
-        <section class="register__form">
-            <h1>Register Form</h1>
-            <form class="form" action="">
-                <input type="text" name="Username" id="" placeholder="Username">
-                <input type="password" name="Password" id="" placeholder="Password">
-                <input type="password" name="Confirm Password" id="" placeholder="Confirm Password">
-                <input type="email" name="Email" id="" placeholder="Email">
+    <header class="logo"><img class="logo logo__header" src="img/logo_header.png" alt="Logo Masteralb creative"></header>
+    <main class="flexbox">
+        <h1>Register Form</h1>
+        <section class="form__register">
+            <form class="form__register--register" action="#">
+                <input class="input input__username" type="text" name="Username" id="" placeholder="Username" required>
+                <input class="input input__password" type="password" name="Password" id="" placeholder="Password" required>
+                <input class="input input__password" type="password" name="Confirm Password" id="" placeholder="Confirm Password" required>
+                <input class="input input__email" type="email" name="Email" id="" placeholder="Email" required>
                 <select name="Your Location" id="">
-                    <option value="" disabled selected>Your Location</option>
-                    <option value="">Poland</option>
-                    <option value="">USA</option>
-                    <option value="">Brasil</option>
-                    <option value="">Russia</option>
-                    <option value="">Japan</option>
+                    <option value="#" disabled selected>Your Location</option>
+                    <option value="#">Poland</option>
+                    <option value="#">USA</option>
+                    <option value="#">Brasil</option>
+                    <option value="#">Russia</option>
+                    <option value="#">Japan</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Portugal</option>
                 </select>
-                <input type="checkbox" name="" id="">I have read and accept the terms of use.
-                <input type="image" src="img/button_img.png" value="Sign up" name="Sign up">
+                <label for="terms_of_use">I have read and accept the terms of use.
+                    <input class="checkbox" type="checkbox" name="" id="terms_of_use">
+                </label>
+                <input type="submit" value="Sign up" class="button">
             </form>
         </section>
-        <section class="send__email">
-            <h1>Send Email</h1>
-            <form action="" class="form">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
+        <h1>Send Email</h1>
+        <section class="form__email">
+            <form action="" class="form__email--email">
+                <input class="input input__username" type="text" placeholder="Your Name">
+                <input class="input input__password" type="email" placeholder="Your Email">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
-                <input type="checkbox" name="" id="">Send a copy to my Email
-                <button>Send Email</button>
+                <input class="checkbox" type="checkbox" name="" id="">
+                <p>Send a copy to my Email</p>
+                <input type="button" value="Send Email" class="button">
             </form>
         </section>
-        <section class="sign__in__form">
-            <h1>Sign In Form</h1>
-            <form action="" class="form">
-                <input type="text" placeholder="Username">
-                <input type="password" name="" id="" placeholder="Password">
-                <input type="checkbox" name="" id="">Remember me
-                <button>Sign in</button>
+        <h1>Sign In Form</h1>
+        <section class="form__sign">
+            <form action="" class="form__sign--sign">
+                <input class="input input__username" type="text" placeholder="Username">
+                <input class="input input__password" type="password" name="" id="" placeholder="Password">
+                <input class="chceckbox" type="checkbox" name="" id="">
+                <p>Remember me</p>
+                <input type="submit" value="Sign in" class="button button__small">
             </form>
         </section>
-        <section class="recorver__form">
-            <h1>Recover Form</h1>
-            <form action="" class="form">
-                <input type="email" name="" id="" placeholder="Enter Your Email">
-                <input type="number" name="" id="" placeholder="Enter your Phone number">
-                <button>Send</button>
-                <button id="recover__form__done">Done</button>
+        <h1>Recover Form</h1>
+        <section class="form__recover">
+            <form action="" class="form__recover--recover">
+                <input class="input input__email" type="email" name="" id="" placeholder="Enter Your Email">
+                <input class="input input__number" type="number" name="" id="" placeholder="Enter your Phone number">
+                <input type="submit" value="Send" class="button button__small">
+                <input type="submit" value="Done" class="button button__small button__small--done">
             </form>
         </section>
-        <section class="subscribe__form">
-            <h1>Subscribe Form</h1>
-            <form action="" class="form">
-                <input type="email" name="" id="" placeholder="Enter you Email">
-                <button>Subscribe</button>
-                <button id="subscribe__form__no">No, Thanks</button>
+        <h1>Subscribe Form</h1>
+        <section class="form__subscribe">
+            <form action="" class="form__subscribe--subscribe">
+                <input class="input input__email" type="email" name="" id="" placeholder="Enter you Email">
+                <input type="submit" value="Subscribe" class="button button__small">
+                <input type="submit" value="No, Thanks" class="button button__small button__small--no">
             </form>
         </section>
     </main>
-    <footer id="main__footer"><img id="img__footer" src="img/logo_footer.png" alt="Logo Masteralb creative / www.masteralb.com"></footer>
+    <footer class="logo"><img class="logo__footer" src="img/logo_footer.png" alt="Logo Masteralb creative / www.masteralb.com"></footer>
 </body>
 
 </html>

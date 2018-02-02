@@ -19,6 +19,7 @@ body {
     opacity: 0.36;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .logo__header {
